@@ -1,0 +1,8 @@
+# Top most .editorconfig file
+root = true
+
+# Settings for all files
+[*]
+charset = utf-8
+indent_style = tab
+indent_size = 4
