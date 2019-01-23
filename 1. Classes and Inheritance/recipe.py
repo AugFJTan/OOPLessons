@@ -8,7 +8,7 @@
 # Use python library to generate random numbers
 import random
 
-# Class to use as template for our object
+# Class to use as template for our objects
 class RecipeSelector:
 	# Class constructor method
 	def __init__(self, recipes): # recipes is a list of strings
@@ -55,7 +55,7 @@ prices = [1.5, 1.0, 0.8, 2.5, 3.0]
 rs = RecipeSelector(my_recipes)
 rs.WhatToCook()
 
-# Create difference object using RecipeSelector class
+# Create different object using RecipeSelector class
 rs2 = RecipeSelector(my_other_recipes)
 rs2.WhatToCook()
 
